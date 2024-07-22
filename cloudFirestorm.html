@@ -16,7 +16,7 @@
         <div class="col-auto col-sm-2 bg-success min-vh-100">
             <div class="bg-successsidebar">
                 <a class="d-flex text-decoration-none align-items-center mt-3">
-                    <h2 class="fs-2 d-none d-sm-inline text-light fw-bold">CLOUDFIRESTORM</h2>
+                    <h2 class="fs-2 d-none d-sm-inline text-light fw-bold">CLOUD <br>FIRESTORM</h2>
                 </a>
                 <div class="dropdown mt-4 ms-2">
                     <p class="dropdown-toggle text-light fs-5" data-bs-toggle="dropdown" aria-expanded="false">
@@ -57,47 +57,130 @@
         </div>
 
 
-        <!---->
+    <!---->
 
+    <div class="col">
+      <div class="text-center">
+      <h2 class=" fw-bold mt-3 mb-5">¿Que es clouFirestorm?</h2>
+      </div>
+    <div class="row">
+      <div class="col col-md-6 ms-5 me-3 mt-3">
+        <p class="">Cloud Firestore es una base de datos de documentos NoSQL caracterizada por su flexibilidad y escalabilidad en la nube y que permite almacenar y sincronizar los datos necesarios para el desarrollo del cliente y el servidor, así como dispositivos móviles y demás.
+          Cloud Firestore es una base de datos de documentos NoSQL que permite almacenar, sincronizar y consultar fácilmente datos en tus apps web y para dispositivos móviles a escala global.
+          Cloud Firestore es una base de datos NoSQL orientada a los documentos. A diferencia de una base de datos SQL, no hay tablas ni filas. en su lugar, almacenas los datos en documentos, que se organizan en colecciones.
+          Cada documento contiene un conjunto de pares clave-valor. Cloud Firestore está optimizado para almacenar grandes colecciones de documentos pequeños.</p>
+      </div>
+      <div class="col col-md-5 text-center">
+        <img  class="ms-5 mt-5" src="img/Cloud-Firestore.jpg" style="width: 23rem;">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col mt-5">
+        <div class="text-center">
+        <h2 class="fw-bold">Caracteristicas</h2>
+        </div>    
+      </div>
+    </div>
+    <div class="row">
+      <div class="col ms-5">
+        <ul>
+          <li>
+            <h4 class="fw-bold mt-5">NOSQL</h4>
+            <p class="mt-2">MongoDB es un sistema de gestión de bases de datos NoSQL, lo que significa que no utiliza un esquema de bases de datos relacional tradicional. En su lugar, utiliza un modelo de documentos para almacenar y recuperar datos.</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <h4 class="fw-bold mt-5">Document-based</h4>
+            <p class="mt-2"> En MongoDB, los datos se almacenan en documentos JSON (JavaScript Object Notation) o BSON (Binary Serialized Object Notation). Esto permite una gran flexibilidad en la estructura de los datos y facilita la manipulación de los mismos.</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <h4 class="fw-bold mt-5">Schema-less</h4>
+            <p class="mt-2">MongoDB no requiere un esquema previo para crear una base de datos. Esto significa que puedes agregar campos y estructuras a tus documentos en cualquier momento, sin necesidad de cambiar la estructura de la base de datos.</p>
+        </ul>
+        <ul>
+          <li>
+            <h4 class="fw-bold mt-5">Scalability</h4>
+            <p class="mt-2">MongoDB es escalable, lo que significa que puedes agregar más nodos a tu cluster para manejar un aumento en la carga y la cantidad de datos.</p>
+        </ul>
+        <ul>
+          <li>
+            <h4 class="fw-bold mt-5">High availability</h4>
+            <p class="mt-2">MongoDB ofrece alta disponibilidad, lo que significa que puedes configurar tu cluster para que esté disponible en caso de fallos o mantenimiento.</p>
+        </ul>
+        <ul>
+          <li>
+            <h4 class="fw-bold mt-5">Replication</h4>
+            <p class="mt-2">MongoDB ofrece replicación, lo que significa que puedes crear copias de seguridad de tus datos en diferentes nodos para garantizar la disponibilidad y la recuperación en caso de fallos.</p>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="text-center">
+          <h2 class="fw-bold mt-5">Funcionamiento</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col ms-5 mt-4">
+        <p>MongoDB almacena objetos de datos en colecciones y documentos en lugar de las tablas y filas que se utilizan en las bases de datos relacionales tradicionales. Las colecciones comprenden conjuntos de documentos, que son equivalentes a tablas en una base de datos relacional. Los documentos consisten en pares clave-valor, que son la unidad básica de datos en MongoDB.
+          La estructura de un documento se puede cambiar simplemente añadiendo campos nuevos o eliminando los existentes. Los documentos pueden definir una clave principal como identificador único y los valores pueden ser una variedad de tipos de datos, incluidos otros documentos, matrices y matrices de documentos.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col mt-5">
+        <div class="text-center">
+        <h2 class="fw-bold">Desventajas</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col ms-5">
+        <ul>
+          <li>
+            <h4 class="fw-bold mt-5">No tiene Joins para consultas</h4>
+            <p class="mt-2">Esta es una de las grandes desventajas de MongoDB, y es que no permite hacer Joins para consultas, es decir, consultas en las que se combinan o relacionan diferentes tablas. La forma de ejecutar este tipo de consultas en MongoDB se hace de otra manera.</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <h4 class="fw-bold mt-5">Falta de relaciones estrictas</h4>
+            <p class="mt-2">A diferencia de las bases de datos relacionales, MongoDB no impone relaciones estrictas entre documentos, lo que puede dificultar la representación de relaciones complejas entre entidades. Esto puede requerir la implementación de soluciones adicionales para manejar relaciones entre documentos.</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <h4 class="fw-bold mt-5">Ecosistema joven</h4>
+            <p class="mt-2">En comparación con bases de datos relacionales como MySQL o PostgreSQL, MongoDB tiene un ecosistema de herramientas, bibliotecas y recursos de terceros menos maduro. Esto puede dificultar encontrar soluciones a problemas específicos o integrar la base de datos con otras aplicaciones.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="text-center mt-5">
+          <h2 class="fw-bold">Documentacion oficial</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center mt-2">
+        <img src="img/mongodb2.jpg" style="width: 22rem;">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center">
+        <button type="button" class="btn btn-success mt-3 mb-3"><a class="text-decoration-none text-light" href="www.mongodb.com">Ir a la documentacion</a></button>
+      </div>
+    </div>
+    </div>
+</div>
+</div>
 
-       
-              <div class="col-auto mb-3 mt-5 ms-4">
-                  <div class="card" style="width: 15rem;">
-                    <div class="card-body text-center shadow rounded-4">
-                        <img src="img/idea-svgrepo-com.svg" style="width: 10rem;">
-                      <h4 class="card-title fw-bold text-center mt-2">Concepto</h4>
-                      <a href="#" class="btn btn-success mt-4 rounded-1">Ver</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-auto mt-5">
-                  <div class="card" style="width: 15rem;">
-                    <div class="card-body text-center shadow rounded-4">
-                        <img src="img/project-features-icon-free-vector.jpg" style="width: 11rem;">
-                      <h5 class="card-title fw-bold text-center">Caracteristicas</h5>
-                      <a href="#" class="btn btn-success mt-4 rounded-1">Ver</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-auto mt-5">
-                    <div class="card" style="width: 15rem;">
-                      <div class="card-body text-center shadow rounded-4">
-                          <img src="img/R.png" style="width: 11rem;">
-                        <h5 class="card-title fw-bold text-center">Funcionamiento</h5>
-                        <a href="#" class="btn btn-success mt-4 rounded-1">Ver</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-auto mt-5">
-                    <div class="card" style="width: 15rem;">
-                      <div class="card-body text-center shadow rounded-4">
-                          <img src="img/line-icon-for-disadvantages-vector.jpg" style="width: 11rem;">
-                        <h5 class="card-title fw-bold text-center">Desventajas</h5>
-                        <a href="#" class="btn btn-success mt-4 rounded-1">Ver</a>
-                      </div>
-                    </div>
-                  </div>
-              </div>
+    
 
 <!--BOOSTRAP-->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
